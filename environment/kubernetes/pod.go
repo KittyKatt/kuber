@@ -409,6 +409,7 @@ func (e *Environment) Create() error {
 		// Create a map to store the file data for the ConfigMap
 		fileData := make(map[string]string)
 
+		n := 1
 		for _, k := range cfs {
 			// replacement := make(map[string]string)
 			for _, t := range k.Replace {
@@ -423,7 +424,7 @@ func (e *Environment) Create() error {
 
 			// Add a new initContainer to the Pod
 			newInitContainer := corev1.Container{
-				Name:            "configuration-files",
+				Name:            "configuration-files-" + n,
 				Image:           "busybox",
 				ImagePullPolicy: corev1.PullIfNotPresent,
 				SecurityContext: &corev1.SecurityContext{
@@ -446,6 +447,7 @@ func (e *Environment) Create() error {
 			}
 
 			pod.Spec.InitContainers = append(pod.Spec.InitContainers, newInitContainer)
+			n++
 		}
 
 		pod.Spec.Volumes = append(pod.Spec.Volumes, corev1.Volume{
