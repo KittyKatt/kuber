@@ -8,11 +8,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/router/middleware"
-	"github.com/kubectyl/kuber/server"
-	"github.com/kubectyl/kuber/server/installer"
-	"github.com/kubectyl/kuber/server/transfer"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/router/middleware"
+	"github.com/KittyKatt/kuber/server"
+	"github.com/KittyKatt/kuber/server/installer"
+	"github.com/KittyKatt/kuber/server/transfer"
 )
 
 // Data passed over to initiate a server transfer.

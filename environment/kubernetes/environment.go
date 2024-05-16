@@ -20,11 +20,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/events"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/events"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/system"
 )
 
 type Metadata struct {

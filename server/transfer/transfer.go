@@ -7,8 +7,8 @@ import (
 	"github.com/apex/log"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/kubectyl/kuber/server"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/server"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // Status represents the current status of a transfer.

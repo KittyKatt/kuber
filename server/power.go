@@ -8,8 +8,8 @@ import (
 	"emperror.dev/errors"
 	"github.com/google/uuid"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
 )
 
 type PowerAction string

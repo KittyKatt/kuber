@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/kubectyl/kuber/router/middleware"
-	"github.com/kubectyl/kuber/router/tokens"
+	"github.com/KittyKatt/kuber/router/middleware"
+	"github.com/KittyKatt/kuber/router/tokens"
 )
 
 // Handles downloading a specific file for a server.

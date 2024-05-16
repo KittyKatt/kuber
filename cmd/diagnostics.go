@@ -21,9 +21,9 @@ import (
 	"github.com/docker/docker/pkg/parsers/kernel"
 	"github.com/docker/docker/pkg/parsers/operatingsystem"
 	"github.com/goccy/go-json"
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/loggers/cli"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/loggers/cli"
+	"github.com/KittyKatt/kuber/system"
 	"github.com/spf13/cobra"
 
 	"github.com/olekukonko/tablewriter"

@@ -10,11 +10,11 @@ import (
 
 	"github.com/apex/log"
 
-	"github.com/kubectyl/kuber/events"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/events"
+	"github.com/KittyKatt/kuber/system"
 
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/remote"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/remote"
 )
 
 var dockerEvents = []string{

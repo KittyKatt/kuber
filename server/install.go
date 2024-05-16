@@ -17,10 +17,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/utils/pointer"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/system"
 
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

@@ -11,9 +11,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/server"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/server"
 )
 
 // AttachRequestID attaches a unique ID to the incoming HTTP request so that any

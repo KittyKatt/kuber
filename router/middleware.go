@@ -3,8 +3,8 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/kubectyl/kuber/router/middleware"
-	"github.com/kubectyl/kuber/server"
+	"github.com/KittyKatt/kuber/router/middleware"
+	"github.com/KittyKatt/kuber/server"
 )
 
 // ExtractServer returns the server instance from the gin context. If there is

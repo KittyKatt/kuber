@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kubectyl/kuber/internal/progress"
-	"github.com/kubectyl/kuber/server/filesystem"
+	"github.com/KittyKatt/kuber/internal/progress"
+	"github.com/KittyKatt/kuber/server/filesystem"
 )
 
 // Archive returns an archive that can be used to stream the contents of the

@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kubectyl/kuber/internal/models"
+	"github.com/KittyKatt/kuber/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/cenkalti/backoff/v4"
 	"github.com/goccy/go-json"
 
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/system"
 )
 
 type Client interface {

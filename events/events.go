@@ -6,7 +6,7 @@ import (
 	"emperror.dev/errors"
 	"github.com/goccy/go-json"
 
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // Event represents an Event sent over a Bus.

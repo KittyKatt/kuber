@@ -21,9 +21,9 @@ import (
 	"k8s.io/client-go/tools/remotecommand"
 	"k8s.io/utils/pointer"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/system"
 
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -424,7 +424,7 @@ func (e *Environment) Create() error {
 
 			// Add a new initContainer to the Pod
 			newInitContainer := corev1.Container{
-				Name:            "configuration-files-" + n,
+				Name:            "configuration-files-" + strconv.Itoa(n),
 				Image:           "busybox",
 				ImagePullPolicy: corev1.PullIfNotPresent,
 				SecurityContext: &corev1.SecurityContext{

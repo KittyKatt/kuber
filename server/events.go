@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/kubectyl/kuber/events"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/events"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // Defines all the possible output events for a server.

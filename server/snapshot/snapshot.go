@@ -10,7 +10,7 @@ import (
 	"github.com/mholt/archiver/v4"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/kubectyl/kuber/remote"
+	"github.com/KittyKatt/kuber/remote"
 )
 
 var format = archiver.CompressedArchive{

@@ -9,10 +9,10 @@ import (
 	"github.com/apex/log"
 	"github.com/docker/docker/client"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/server/snapshot"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/server/snapshot"
 )
 
 // Notifies the panel of a snapshot's state and returns an error if one is encountered

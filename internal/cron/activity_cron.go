@@ -5,10 +5,10 @@ import (
 
 	"emperror.dev/errors"
 
-	"github.com/kubectyl/kuber/internal/database"
-	"github.com/kubectyl/kuber/internal/models"
-	"github.com/kubectyl/kuber/server"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/internal/database"
+	"github.com/KittyKatt/kuber/internal/models"
+	"github.com/KittyKatt/kuber/server"
+	"github.com/KittyKatt/kuber/system"
 )
 
 type activityCron struct {

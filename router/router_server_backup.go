@@ -10,10 +10,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/router/middleware"
-	"github.com/kubectyl/kuber/server"
-	"github.com/kubectyl/kuber/server/snapshot"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/router/middleware"
+	"github.com/KittyKatt/kuber/server"
+	"github.com/KittyKatt/kuber/server/snapshot"
 
 	snapshotclientset "github.com/kubernetes-csi/external-snapshotter/client/v4/clientset/versioned"
 )

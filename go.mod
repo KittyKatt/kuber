@@ -1,4 +1,4 @@
-module github.com/kubectyl/kuber
+module github.com/KittyKatt/kuber
 
 go 1.18
 

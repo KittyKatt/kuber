@@ -9,9 +9,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/internal/models"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/internal/models"
+	"github.com/KittyKatt/kuber/system"
 )
 
 var (

@@ -9,11 +9,11 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 
-	"github.com/kubectyl/kuber/router/downloader"
-	"github.com/kubectyl/kuber/router/middleware"
-	"github.com/kubectyl/kuber/router/tokens"
-	"github.com/kubectyl/kuber/server"
-	"github.com/kubectyl/kuber/server/transfer"
+	"github.com/KittyKatt/kuber/router/downloader"
+	"github.com/KittyKatt/kuber/router/middleware"
+	"github.com/KittyKatt/kuber/router/tokens"
+	"github.com/KittyKatt/kuber/server"
+	"github.com/KittyKatt/kuber/server/transfer"
 )
 
 // Returns a single server from the collection of servers.

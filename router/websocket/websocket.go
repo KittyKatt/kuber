@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kubectyl/kuber/internal/models"
+	"github.com/KittyKatt/kuber/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
@@ -18,13 +18,13 @@ import (
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/system"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	docker "github.com/kubectyl/kuber/environment/kubernetes"
-	"github.com/kubectyl/kuber/router/tokens"
-	"github.com/kubectyl/kuber/server"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	docker "github.com/KittyKatt/kuber/environment/kubernetes"
+	"github.com/KittyKatt/kuber/router/tokens"
+	"github.com/KittyKatt/kuber/server"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"github.com/buger/jsonparser"
 	"github.com/goccy/go-json"
 
-	"github.com/kubectyl/kuber/config"
+	"github.com/KittyKatt/kuber/config"
 )
 
 // The file parsing options that are available for a server configuration file.

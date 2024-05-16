@@ -12,9 +12,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/remote"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/remote"
 )
 
 // OnBeforeStart run before the container starts and get the process

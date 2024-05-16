@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/remote"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/remote"
 
 	snapshotv1 "github.com/kubernetes-csi/external-snapshotter/client/v4/apis/volumesnapshot/v1"
 	snapshotclientset "github.com/kubernetes-csi/external-snapshotter/client/v4/clientset/versioned"

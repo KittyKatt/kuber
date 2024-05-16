@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kubectyl/kuber/internal/progress"
+	"github.com/KittyKatt/kuber/internal/progress"
 )
 
 // PushArchiveToTarget POSTs the archive to the target node and returns the

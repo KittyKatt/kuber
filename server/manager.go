@@ -15,11 +15,11 @@ import (
 	"github.com/gammazero/workerpool"
 	"github.com/goccy/go-json"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/environment/kubernetes"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/server/filesystem"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/environment/kubernetes"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/server/filesystem"
 )
 
 type Manager struct {

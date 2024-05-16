@@ -5,7 +5,7 @@ import (
 
 	"github.com/gbrlsnchs/jwt/v3"
 
-	"github.com/kubectyl/kuber/config"
+	"github.com/KittyKatt/kuber/config"
 )
 
 type TokenData interface {

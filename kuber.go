@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/kubectyl/kuber/cmd"
+	"github.com/KittyKatt/kuber/cmd"
 )
 
 func main() {

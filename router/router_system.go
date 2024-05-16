@@ -16,12 +16,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"k8s.io/client-go/discovery"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/router/middleware"
-	"github.com/kubectyl/kuber/server"
-	"github.com/kubectyl/kuber/server/installer"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/router/middleware"
+	"github.com/KittyKatt/kuber/server"
+	"github.com/KittyKatt/kuber/server/installer"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // Returns information about the system that kuber is running on.

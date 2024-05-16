@@ -3,7 +3,7 @@ package server
 import (
 	"sync"
 
-	"github.com/kubectyl/kuber/environment"
+	"github.com/KittyKatt/kuber/environment"
 )
 
 type RocketConfiguration struct {

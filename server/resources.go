@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // ResourceUsage defines the current resource usage for a given server instance. If a server is offline you

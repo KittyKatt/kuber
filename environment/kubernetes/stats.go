@@ -17,8 +17,8 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
 	"github.com/prometheus/client_golang/api"
 
 	pv1 "github.com/prometheus/client_golang/api/prometheus/v1"

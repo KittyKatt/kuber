@@ -17,7 +17,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 
-	"github.com/kubectyl/kuber/server"
+	"github.com/KittyKatt/kuber/server"
 )
 
 var client = &http.Client{

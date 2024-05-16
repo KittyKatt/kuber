@@ -3,7 +3,7 @@ package environment
 import (
 	"sync"
 
-	"github.com/kubectyl/kuber/parser"
+	"github.com/KittyKatt/kuber/parser"
 )
 
 type Settings struct {

@@ -5,10 +5,10 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/router/middleware"
-	wserver "github.com/kubectyl/kuber/server"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/router/middleware"
+	wserver "github.com/KittyKatt/kuber/server"
 )
 
 // Configure configures the routing infrastructure for this daemon instance.

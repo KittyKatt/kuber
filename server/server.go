@@ -13,12 +13,12 @@ import (
 	"github.com/goccy/go-json"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/events"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/kuber/server/filesystem"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/events"
+	"github.com/KittyKatt/kuber/remote"
+	"github.com/KittyKatt/kuber/server/filesystem"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // Server is the high level definition for a server instance being controlled

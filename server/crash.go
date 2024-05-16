@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
 )
 
 type CrashHandler struct {

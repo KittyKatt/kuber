@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/system"
 )
 
 type Event string

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/kubectyl/kuber/events"
+	"github.com/KittyKatt/kuber/events"
 	corev1 "k8s.io/api/core/v1"
 )
 

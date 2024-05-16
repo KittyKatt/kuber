@@ -6,8 +6,8 @@ import (
 
 	"emperror.dev/errors"
 
-	"github.com/kubectyl/kuber/internal/database"
-	"github.com/kubectyl/kuber/internal/models"
+	"github.com/KittyKatt/kuber/internal/database"
+	"github.com/KittyKatt/kuber/internal/models"
 )
 
 const ActivityPowerPrefix = "server:power."

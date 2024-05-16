@@ -3,9 +3,9 @@ package server
 import (
 	"time"
 
-	kubernetes "github.com/kubectyl/kuber/environment/kubernetes"
+	kubernetes "github.com/KittyKatt/kuber/environment/kubernetes"
 
-	"github.com/kubectyl/kuber/environment"
+	"github.com/KittyKatt/kuber/environment"
 )
 
 // SyncWithEnvironment updates the environment for the server to match any of

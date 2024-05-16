@@ -16,7 +16,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/spf13/cobra"
 
-	"github.com/kubectyl/kuber/config"
+	"github.com/KittyKatt/kuber/config"
 )
 
 var configureArgs struct {

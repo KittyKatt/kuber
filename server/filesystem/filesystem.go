@@ -22,9 +22,9 @@ import (
 	ignore "github.com/sabhiram/go-gitignore"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/environment"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/environment"
+	"github.com/KittyKatt/kuber/system"
 )
 
 type Filesystem struct {

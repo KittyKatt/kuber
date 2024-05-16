@@ -15,7 +15,7 @@ import (
 
 	errors2 "emperror.dev/errors"
 	"github.com/apex/log"
-	"github.com/kubectyl/kuber/config"
+	"github.com/KittyKatt/kuber/config"
 	"gopkg.in/yaml.v2"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"

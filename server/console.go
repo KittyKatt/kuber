@@ -7,8 +7,8 @@ import (
 
 	"github.com/mitchellh/colorstring"
 
-	"github.com/kubectyl/kuber/config"
-	"github.com/kubectyl/kuber/system"
+	"github.com/KittyKatt/kuber/config"
+	"github.com/KittyKatt/kuber/system"
 )
 
 // appName is a local cache variable to avoid having to make expensive copies of

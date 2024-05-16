@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/kubectyl/kuber/internal/models"
+	"github.com/KittyKatt/kuber/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
